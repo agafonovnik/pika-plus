@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Pikabu Plus News",
+  "version": "1.0",
+  "description": "Удовольствие от Pikabu",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
